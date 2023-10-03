@@ -13,5 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Файлы заголовков\ethernet">
+      <UniqueIdentifier>{13b5b634-b324-4a7f-a678-b0241ce70d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ethernet">
+      <UniqueIdentifier>{22992319-5c86-45d0-b8e9-9f5faceeb0c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ethernet\general.hpp">
+      <Filter>Файлы заголовков\ethernet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ethernet\TcpServer.hpp">
+      <Filter>Файлы заголовков\ethernet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ethernet\TcpServer.cpp">
+      <Filter>Исходные файлы\ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ethernet\TcpServerClient.cpp">
+      <Filter>Исходные файлы\ethernet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\main.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
